@@ -4,7 +4,7 @@ Plugin Name: Fix SSL Please
 Plugin URI: https://github.com/kasparsd/ssl-fix
 GitHub URI: https://github.com/kasparsd/ssl-fix
 Description: Ensure that everything works over SSL
-Version: 0.1
+Version: 0.1.1
 Author: Kaspars Dambis
 Author URI: http://kaspars.net
 */
