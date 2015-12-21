@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: SSL Fix
+Plugin Name: Fix SSL Please
 Plugin URI: https://github.com/kasparsd/ssl-fix
 GitHub URI: https://github.com/kasparsd/ssl-fix
 Description: Ensure that everything works over SSL
