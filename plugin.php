@@ -24,7 +24,7 @@ class FixSSLPlease {
 
 		add_filter( 'wp_calculate_image_srcset', array( $this, 'image_src' ) );
 		add_filter( 'the_content', array( $this, 'content_src' ) );
-		add_filter( 'comment_text', array( $this, 'comment_src' ) );
+		add_filter( 'comment_text', array( $this, 'content_src' ) );
 		add_filter( 'style_loader_tag', array( $this, 'script_src' ) );
 		add_filter( 'script_loader_tag', array( $this, 'script_src' ) );
 
