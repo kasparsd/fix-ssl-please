@@ -28,6 +28,8 @@ class FixSSLPlease {
 		add_filter( 'style_loader_tag', array( $this, 'script_src' ) );
 		add_filter( 'script_loader_tag', array( $this, 'script_src' ) );
 
+		add_filter( 'get_site_icon_url', 'set_url_scheme' );
+
 	}
 
 	public function instance() {
